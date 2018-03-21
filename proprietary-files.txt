@@ -362,6 +362,16 @@ vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml
 vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml
 vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml
 
+#Dolby Digital
+-app/Ds/Ds.apk
+-app/DsUI/DsUI.apk
+dolby/ds1-default.xml
+etc/audio_effects.conf
+etc/permissions/android.dolby.xml
+lib/libstagefright_soft_ddpdec.so
+lib/soundfx/libdseffect.so
+vendor/etc/audio_effects.conf 
+
 #DRM
 etc/firmware/widevine.b00
 etc/firmware/widevine.b01
