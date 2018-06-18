@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-	Developed by andr68rus
--->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
     <PreferenceCategory
         android:key="batt"
         android:title="@string/battery_settings_title" >
@@ -13,6 +9,21 @@
             android:defaultValue="false"
             android:title="@string/qc_title"
             android:summary="@string/qc_summary" />
+        <SwitchPreference
+            android:key="battery_mode"
+            android:defaultValue="false"
+            android:title="@string/battery_title"
+            android:summary="@string/battery_summary" />
+  </PreferenceCategory>
+  <PreferenceCategory
+  android:key="focus"
+  android:title="@string/focusfix_settings_title" >
 
-	</PreferenceCategory>
+  <SwitchPreference
+      android:key="focusfix_setting"
+      android:defaultValue="false"
+      android:title="@string/focusf_title"
+      android:summary="@string/focusf_summary" />
+
+</PreferenceCategory>
 </PreferenceScreen>

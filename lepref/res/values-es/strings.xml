@@ -14,12 +14,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="lepref_title">Leeco Extras</string>
-    <string name="battery_settings_title">Battery</string>
-      <string name="qc_title">Quick Charge</string>
-      <string name="qc_summary">Enable/disable quick charge settings</string>
-      <string name="battery_title">Battery power save profile</string>
-      <string name="battery_summary">Enable/disable battery power save profile</string>
-    <string name="focusfix_settings_title">Camera</string>
-      <string name="focusf_title">Focus Fix</string>
-      <string name="focusf_summary">Enable/disable focus fix</string>
+
+    <!-- Bateria -->
+    <string name="battery_settings_title">Bateria</string>
+    <string name="battery_title">Ahorro de bateria</string>
+    <string name="battery_summary">Activar/desactivar el modo ahorro de bateria</string>
+    <string name="qc_title">Carga rapida</string>
+    <string name="qc_summary">Activar o desactivar la carga rapida</string>
+    <string name="focusfix_settings_title">Camara</string>
+    <string name="focusf_title">Fix para el enfoque</string>
+    <string name="focusf_summary">Activar/desactivar el fix para el enfoque</string>
 </resources>
