@@ -40,3 +40,12 @@ persist.qfp.eeprom=/sys/bus/i2c/devices/8-0051/eeprom
 
 # Radio
 persist.radio.multisim.config=dsds
+
+#Dolby
+ro.config.media_vol_steps=20
+persist.vendor.audio.hifi.int_codec=true
+audio.dolby.ds2.enabled=true
+audio.dolby.ds2.hardbypass=true
+vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=true
+ro.mifavor.dolby=true
